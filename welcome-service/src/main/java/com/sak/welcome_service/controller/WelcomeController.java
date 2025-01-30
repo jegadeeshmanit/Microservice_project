@@ -14,11 +14,11 @@ public class WelcomeController {
 
     @GetMapping("/signup") 
     public String signup() {
-        return "redirect:http://13.234.226.171:8082/users/signup";
+        return "redirect:http://13.203.77.106:8082/users/signup";
     }
 
     @GetMapping("/login")
     public String login() {
-        return "redirect:http://13.234.226.171:8083/auth/login";
+        return "redirect:http://13.203.77.106:8083/auth/login";
     }
 }
